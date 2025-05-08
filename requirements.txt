@@ -1,0 +1,8 @@
+torch>=1.10.0
+torchvision>=0.11.1
+transformers>=4.28.0
+Pillow>=9.0.0
+numpy>=1.20.0
+tqdm>=4.62.0
+opencv-python>=4.5.0
+groundingdino @ git+https://github.com/IDEA-Research/GroundingDINO.git
