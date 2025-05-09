@@ -20,6 +20,11 @@ Explore the detailed walkthrough and insights in the [Lenna Blog-style Jupyter N
 
 ---
 
+## 📓 Presentation
+
+Here's the PPT for the Lenna Project [Lenna Presentation](assets\LENNA.pptx).
+---
+
 ## 📓 Dataset Visualization
 
 Explore the dataset and get insights of RefCOCOg [RefCOCO dataset Visualization Jupyter Notebook](mmdp-project-lenna-dataset-visualization.ipynb).
