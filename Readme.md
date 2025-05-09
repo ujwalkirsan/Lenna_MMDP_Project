@@ -1,10 +1,30 @@
 # Lenna: Visual Grounding for RefCOCOg Dataset
 
 <p align="center">
-  <img src="assets\architecture.png" alt="Lenna Model Architecture" />
+  <img src="assets/architecture.png" alt="Lenna Model Architecture" />
 </p>
 
-This repository implements the Lenna model for visual grounding on the RefCOCOg dataset. Lenna combines powerful vision-language models (LLaVA) with object detection (Grounding DINO) to accurately locate objects in images based on natural language referring expressions.
+This repository implements the **Lenna** model for visual grounding on the **RefCOCOg** dataset. Lenna combines powerful vision-language models (LLaVA) with object detection (Grounding DINO) to accurately locate objects in images based on natural language referring expressions.
+
+---
+
+## 🎥 Demo Video
+
+Watch the demo on YouTube: [https://youtu.be/TP037Zt-y_w](https://youtu.be/TP037Zt-y_w)
+
+---
+
+## 📓 Blog-style Report
+
+Explore the detailed walkthrough and insights in the [Lenna Blog-style Jupyter Notebook Report](Report/Lenna_Blog_style_report.ipynb).
+
+---
+
+## 📓 Dataset Visualization
+
+Explore the dataset and get insights of RefCOCOg [RefCOCO dataset Visualization Jupyter Notebook](mmdp-project-lenna-dataset-visualization.ipynb).
+
+
 
 ## Table of Contents
 - [Overview](#overview)
