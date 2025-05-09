@@ -1,7 +1,7 @@
 # Lenna: Visual Grounding for RefCOCOg Dataset
 
 <p align="center">
-  <img src="/api/placeholder/800/300" alt="Lenna Model Architecture" />
+  <img src="assets\architecture.png" alt="Lenna Model Architecture" />
 </p>
 
 This repository implements the Lenna model for visual grounding on the RefCOCOg dataset. Lenna combines powerful vision-language models (LLaVA) with object detection (Grounding DINO) to accurately locate objects in images based on natural language referring expressions.
@@ -24,11 +24,6 @@ Visual grounding is the task of localizing a specific object in an image based o
 2. **Grounding DINO**: A state-of-the-art zero-shot object detection model with strong grounding capabilities
 3. **Integrated Pipeline**: A carefully designed pipeline that combines these models for optimal performance
 
-<p align="center">
-  <img src="/api/placeholder/700/250" alt="Example of Visual Grounding" />
-  <br>
-  <em>Example: "the man wearing blue jeans" → bounding box around the referred person</em>
-</p>
 
 ## Model Architecture
 
@@ -44,11 +39,6 @@ The Lenna model architecture consists of two main components that work together:
 - Takes text descriptions and images as input
 - Produces bounding boxes with confidence scores
 
-<p align="center">
-  <img src="/api/placeholder/800/400" alt="Lenna Architecture Diagram" />
-  <br>
-  <em>Lenna Architecture: Combining LLaVA and Grounding DINO for visual grounding</em>
-</p>
 
 ## Dataset
 
@@ -208,20 +198,10 @@ image_with_boxes.save("result.jpg")
 ```
 
 ## Results
-
-### Performance Metrics
-
-The performance of the Lenna model on the RefCOCOg dataset is measured using accuracy at different IoU (Intersection over Union) thresholds:
-
-| Split | Accuracy@0.5 | Accuracy@0.7 | Accuracy@0.9 |
-|-------|-------------|-------------|-------------|
-| Val   |             |             |             |
-| Test  |             |             |             |
-
 ### Qualitative Results
 
 <p align="center">
-  <img src="/api/placeholder/900/500" alt="Qualitative Results" />
+  <img src="assets\results.png" alt="Qualitative Results" />
   <br>
   <em>Examples of successful visual grounding by Lenna on the RefCOCOg dataset</em>
 </p>
