@@ -22,7 +22,7 @@ Explore the detailed walkthrough and insights in the [Lenna Blog-style Jupyter N
 
 ## 📓 Presentation
 
-Here's the PPT for the Lenna Project [Lenna Presentation](assets\LENNA.pptx).
+Here's the PPT for the Lenna Project [Lenna Presentation](assets/LENNA.pptx).
 ---
 
 ## 📓 Dataset Visualization
